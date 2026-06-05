@@ -25,4 +25,12 @@ jobs:
       - name: Build
         uses: junobuild/juno-action@full
         with:
-          args: functions build && functions publish
+          args: functions build
+
+      - name: Check target
+        run: ls -la target/
+
+      - name: Publish
+        uses: junobuild/juno-action@full
+        with:
+          args: functions publish
