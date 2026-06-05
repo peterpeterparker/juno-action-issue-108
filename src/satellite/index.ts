@@ -12,11 +12,11 @@ export const onSetDoc = defineHook<OnSetDoc>({
     console.log(context)
   }});
 
-// export const helloWorld = defineQuery({
-//   result: Schema,
-//   handler: async () => {
-//     return {
-//       id: canisterSelf()
-//     }
-//   },
-// });
+export const helloWorld = defineQuery({
+  result: Schema,
+  handler: async () => {
+    return {
+      id: canisterSelf()
+    }
+  },
+});
