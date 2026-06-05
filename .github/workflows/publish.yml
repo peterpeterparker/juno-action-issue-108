@@ -30,6 +30,9 @@ jobs:
       - name: Check target
         run: ls -la target/
 
+      - name: Check target deply
+        run: ls -la target/deploy
+
       - name: Publish
         uses: junobuild/juno-action@full
         with:
