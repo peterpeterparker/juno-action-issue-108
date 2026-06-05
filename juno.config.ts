@@ -4,7 +4,7 @@ export default defineConfig({
   satellite: {
     ids: {
       development: "auamu-4x777-77775-aaaaa-cai",
-      production: "<PROD_SATELLITE_ID>",
+      production: "dtzsb-3qaaa-aaaal-asz4q-cai",
     },
     hosting: {
       source: "dist",
